@@ -33,8 +33,8 @@ The used is composed by the following data:
 
 ### Query of example
 
-####Successfully query
-#####Curl command
+#### Successfully query
+##### Curl command
 
         curl --location --request GET 'http://localhost:8080/backend-challenge/price/' \
         --header 'Content-Type: application/json' \
@@ -44,8 +44,8 @@ The used is composed by the following data:
             "brandId": "1"
         }'
 
-####Failed query: price not found
-#####Curl command
+#### Failed query: price not found
+##### Curl command
 
         curl --location --request GET 'http://localhost:8080/backend-challenge/price/' \
         --header 'Content-Type: application/json' \
